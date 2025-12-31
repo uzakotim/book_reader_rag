@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+#[tokio::main]
+async fn main() {
+    book_reader_rag_lib::run().await;
 }
